@@ -105,7 +105,6 @@
     padding-top: 20px;
 }
 
-
 .Flower4{
     background-color: rgba(71, 125, 17, 0.15);
     height: 450px;
@@ -138,9 +137,39 @@
     margin-left: 40px;
 }
 
+/* Sale Section */
+.sale{
+    margin-top: 150px;
+    display: flex;
+    gap: 240px;
+    background-color: #e2ccdf;
+    padding: 30px;
+}
 
+.sale img{
+    width: 350px;
+    height: 350px;
+}
 
+.sale-text{
+    text-align: center;
+    margin-top: 95px;
+    padding-left: 120px;
+}
+span{
+    color: #E55473;
+}
+.sale-tittle{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
 
+.sale-desp{
+    color: rgba(39, 39, 39, 0.6);
+    font-weight: normal;
+    font-size: 1.125rem;
+    margin-top: -12px;
+}
 
 
 
@@ -156,7 +185,6 @@
         display: flex;
         flex-direction: column-reverse;
     }
-
     .header-img{
         width: 350px;
         height: 500px;
@@ -166,14 +194,25 @@
         display: grid;
         grid-template-columns: repeat(1,1fr);
         gap: 100px;
-        margin: 55px;
+        margin: 50px;
     }
 
     .service{
         display: grid;
         grid-template-columns: repeat(1,1fr);
         width: 80%;
-        margin: 55px;
+        margin: 50px;
     }
-   
+    
+    .sale{
+        display: flex;
+        flex-direction: column;
+        gap: 70px;
+    }
+    .sale-text{
+        padding-left: 12px;
+    }
+    .sale img{
+        margin-left: 28px;
+    }
 }
