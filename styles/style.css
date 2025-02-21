@@ -1,0 +1,135 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+.lato-regular {
+    font-family: "Lato", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+/* header section */
+.header{
+    display: flex;
+    padding: 90px;
+}
+
+.header-tittle{
+    font-size: 3rem;
+    font-weight: 900;
+    color: #272727;
+}
+
+.header-desp{
+    font-size: 1.30rem;
+    font-weight: normal;
+    color: rgba(39, 39, 39, 0.6);
+    margin-top: -12px;
+}
+
+.shop-btn{
+    background-color: #E55473;
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.header-img{
+    width: 535px;
+    height: 500px;
+}
+
+/* feature section */
+/* dle this one */
+.feature{
+    margin-bottom: 120px;
+}
+.feature-tittle,.feature-desp{
+    text-align: center;
+}
+
+.feature-tittle{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.feature-desp{
+    font-size: 1.30rem;
+    font-weight: normal;
+    color: rgba(39, 39, 39, 0.6);
+    margin-top: -24px;
+}
+
+.feature-flowers{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-left: 80px;
+}
+
+.Flower2{
+    background-color: rgba(167, 33, 98, 0.15);
+    height: 450px;
+    width: 370px;
+    border-top-left-radius: 250px;
+    border-top-right-radius: 250px;
+
+}
+
+.feature-img{
+    width: 180px;
+    height: 420px;
+    padding-left: 80px;
+    padding-top: 20px;
+}
+
+.mini-text{
+    text-decoration: underline;
+    text-align: center;
+}
+
+.Flower3{
+    background-color: rgba(5, 151, 160, 0.15);
+    height: 450px;
+    width: 370px;
+    border-top-left-radius: 250px;
+    border-top-right-radius: 250px;
+}
+
+.feature3-img{
+    width: 280px;
+    height: 420px;
+    padding-left: 50px;
+    padding-top: 20px;
+}
+
+
+.Flower4{
+    background-color: rgba(71, 125, 17, 0.15);
+    height: 450px;
+    width: 370px;
+    border-top-left-radius: 250px;
+    border-top-right-radius: 250px;
+}
+/* Responsiveness */
+/* header section */
+@media screen and (max-width:576px){
+    .header{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .header-img{
+        width: 350px;
+        height: 500px;
+    }
+    
+    .feature-flowers{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 100px;
+    }
+   
+}
