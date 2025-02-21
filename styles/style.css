@@ -113,6 +113,42 @@
     border-top-left-radius: 250px;
     border-top-right-radius: 250px;
 }
+
+/* Service section */
+.service{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    background-color: rgba(39, 39, 39, 0.05);
+    border-radius: 8px;
+    width: 87%;
+    margin-left: 90px;
+}
+
+.service-1{
+    padding-top: 55px;
+    padding-left: 100px;
+    padding-bottom: 25px;
+}
+
+.service img{
+    padding-left: 60px;
+}
+
+.service-text{
+    margin-left: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 /* Responsiveness */
 /* header section */
 @media screen and (max-width:576px){
@@ -130,6 +166,14 @@
         display: grid;
         grid-template-columns: repeat(1,1fr);
         gap: 100px;
+        margin: 55px;
+    }
+
+    .service{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        width: 80%;
+        margin: 55px;
     }
    
 }
