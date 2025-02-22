@@ -27,7 +27,7 @@
     margin-top: -12px;
 }
 
-.shop-btn{
+.shop-btn,.sign-btn,.subscribe-btn{
     background-color: #E55473;
     border: none;
     padding: 12px;
@@ -156,6 +156,7 @@
     margin-top: 95px;
     padding-left: 120px;
 }
+
 span{
     color: #E55473;
 }
@@ -172,9 +173,87 @@ span{
 }
 
 
+/* Social media */
+.media{
+    text-align: center;
+    margin-top: 60px;
+}
 
+.media-tittle{
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
 
+.media-desp{
+    color: rgba(39, 39, 39, 0.6);
+    font-weight: normal;
+    font-size: 1.125rem;
+    margin-bottom: 48px;
+}
 
+.flowers-media{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin: 20px;
+}
+
+/* inbox section */
+.inbox{
+    background-image: url('../Flower Asset/Rectangle\ 9.png');
+    text-align: center;
+    margin-top: 60px;
+    padding: 30px;
+}
+
+.inbox-tittle{
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+
+.inbox-price{
+    color: rgba(39, 39, 39, 0.6);
+    font-weight: normal;
+    font-size: 1.125rem;
+    margin-top: -24px;
+}
+
+.inbox-send{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+.inbox-send input{
+    /* background-color: transparent; */
+    border: rgb(0, 0, 0);
+    border-radius:8px;
+    width: 420px;
+    height: 25px;
+    padding: 12px;
+}
+
+/* Footer section */
+footer{
+    background-color: #272727;
+    text-align: center;
+    padding: 35px;
+    margin-top: 120px;
+}
+
+footer h3 span{
+    color: #E55473;
+    font-size: 3rem;
+}
+
+.span{
+    color: white;
+    font-size: 3rem;
+}
+footer h5,footer h6{
+    color: white;
+    font-size: 1.125rem;
+    font-weight: normal;
+}
 
 
 
@@ -194,14 +273,14 @@ span{
         display: grid;
         grid-template-columns: repeat(1,1fr);
         gap: 100px;
-        margin: 50px;
+        /* margin: 50px; */
     }
 
     .service{
         display: grid;
         grid-template-columns: repeat(1,1fr);
-        width: 80%;
-        margin: 50px;
+        width: 70%;
+        margin: 80px;
     }
     
     .sale{
@@ -213,6 +292,12 @@ span{
         padding-left: 12px;
     }
     .sale img{
-        margin-left: 28px;
+        margin-left: 65px;
+    }
+
+    .flowers-media{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 20px;
     }
 }
